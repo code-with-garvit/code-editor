@@ -1,4 +1,1 @@
-const run = () => {
-    const code = document.getElementById("input").value;
-    document.getElementById("output").innerHTML = code;
-}
+const run = () => document.getElementById("output").innerHTML = document.getElementById("input").value;
